@@ -1,0 +1,146 @@
+
+    .borda {
+      color: #4c4c4c;
+      font-size: 60px;
+      border-style: solid;
+      border-color: #7f7f7f;
+      border-width: 10px;
+      background: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/background-discreto.jpg);
+      margin-top: 1px;
+
+    }
+
+    #eoq{
+      background:	#d8d8d8;
+    }
+
+    #button {
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      border: 2px solid #555555;
+      background-color: white;
+    }
+    
+    #button:hover {
+      background-color: #555555; /* Green */
+      color: white;
+    }
+    #Ações {
+
+      position: absolute;
+      left: 600px;
+      top: 137px;
+
+    }
+    #Actions{
+     
+    }
+    #tarefas {
+     
+    }
+
+    #Bg {
+      background-position: fixed;
+      background: url(https://hdqwalls.com/wallpapers/simple-background-2.jpg) repeat;
+      background-size: 100%
+    }
+
+    #menu {
+      padding-left: 40px;
+    }
+
+   .Adicionar{
+    margin-left:130px;   
+    margin-bottom: 10px;
+    margin-top: 10px;
+     
+   }
+   .cor{
+       background: url(https://www.freevector.com/uploads/vector/preview/12987/FreeVector-Gray-Floral-Pattern.jpg);
+   }
+   .Input{
+    
+    position: relative;
+    left: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+   }
+   .remover {
+    -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      border: 2px solid red;
+      background-color: white;  
+      color: red;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    .remover:hover{
+      background-color: red;
+      color: white;
+    }
+    .space{
+      margin-left: 130px;
+    }
+    .space1{
+      margin-left:10px;
+    }
+    .editar{
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      border: 2px solid #555555;
+      background-color: white;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+     .editar:hover {
+      background-color: #555555; 
+      color: white;
+    }
+    .color {
+      
+      margin-left: 800px;
+      margin-right: 800px;
+      color: #535353;
+      background-color: #fff;
+      font-size: 30px
+    }
+
+    .task-container {
+      width: 700px;
+      height: 700px;
+      
+      margin: 0 auto;
+    }
+   .tasks{
+      background:	#d8d8d8;
+      float: left;
+      width: 49%;
+      height: 300px;
+   }
+   .task-title{
+     background: grey;
+     color:#ffffff;
+    
+   }
+   .task-content{
+    
+   }
+
+   .actions{
+    background:#d8d8d8;
+    float: left;
+    margin-left: 2%;  
+    width: 49%;
+    height: 300px;
+    margin-bottom: 4px;
+
+   }
+   .action-title{
+     background: grey;
+     color:#ffffff;
+     
+   }
+   .action-content{
+     
+    
+   }

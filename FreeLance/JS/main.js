@@ -6,6 +6,7 @@ function add() {
       var botao = document.createElement("BUTTON");
       var botao2 = document.createElement("BUTTON");
       var checkBox = document.createElement("INPUT");
+      var check = false;
       checkBox.setAttribute("type", "checkbox");
       checkBox.setAttribute("id", "toools");
       aDiv.setAttribute("id", "eoq");
@@ -14,7 +15,6 @@ function add() {
       nDiv.setAttribute("id", "eoq");
       nDiv.style.height = "22px";
       aDiv.style.height = "22px";
-      //botao.setAttribute("id", "tools");
       botao2.setAttribute("id", "tools");
       botao.classList.add("remover");
       botao2.classList.add("editar");
@@ -22,6 +22,14 @@ function add() {
         nDiv.remove()
         aDiv.remove()
       })
+      checkBox.addEventListener("click", function (concluir) {
+        
+      
+      })
+      
+        
+      
+
       botao2.addEventListener("click", function (editar) {
         Edit()
 
@@ -30,7 +38,6 @@ function add() {
       document.getElementById("tarefas").appendChild(nDiv);
       document.getElementById("Actions").appendChild(aDiv);
       nDiv.innerText = input.value + ' ';
-
       botao2.innerText = "Editar";
       botao.innerText = "X";
 
@@ -43,8 +50,8 @@ function add() {
       function Edit() {
         var nText = document.createElement("INPUT")
         var botao3 = document.createElement("BUTTON")
-        // botao.setAttribute("id", "tools");
-
+        nText.classList.add("nInput");
+        botao3.classList.add("salvar");
         botao3.setAttribute("id", "tools");
         botao.remove();
         botao2.remove();
@@ -84,6 +91,19 @@ function add() {
           })
         })
       }
+        function Desconcluir(){
+          if(check == true){
+            nDiv.style.background = "#b6f4f1";
+            check= false;  
+          }
+        }
+        function Concluir(){
+          if(check == false){
+            nDiv.style.background = "#f6b4f1";
+            check= true;  
+          }
+        }
+      
     }
     else {
       alert('Por favor digite uma Tarefa.')

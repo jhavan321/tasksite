@@ -7,17 +7,19 @@
       border-width: 10px;
       background: url(https://backgroundcheckall.com/wp-content/uploads/2018/10/background-discreto.jpg);
       margin-top: 1px;
+      padding-left: 40%;
 
     }
 
     #eoq{
       background:	#d8d8d8;
+      font-size: 21px;
     }
 
     #button {
       -webkit-transition-duration: 0.4s; /* Safari */
       transition-duration: 0.4s;
-      border: 2px solid #555555;
+      border: 5px solid #555555;
       background-color: white;
     }
     
@@ -50,13 +52,16 @@
     }
 
    .Adicionar{
-    margin-left:130px;   
+    margin-left:165px;   
     margin-bottom: 10px;
     margin-top: 10px;
+    height: 50px;
+    width: 100px;
      
    }
    .cor{
-       background: url(https://www.freevector.com/uploads/vector/preview/12987/FreeVector-Gray-Floral-Pattern.jpg);
+    height: 70px;   
+    background: url(https://www.freevector.com/uploads/vector/preview/12987/FreeVector-Gray-Floral-Pattern.jpg);
    }
    .Input{
     
@@ -66,25 +71,37 @@
     margin-top: 10px;   
    }
    .remover {
-    -webkit-transition-duration: 0.4s;
+      -webkit-transition-duration: 0.4s;
       transition-duration: 0.4s;
-      border: 2px solid red;
+      border: 3px solid red;
       background-color: white;  
       color: red;
       padding-right: 10px;
       padding-left: 10px;
+      height:25px;
+      
     }
     .remover:hover{
       background-color: red;
       color: white;
     }
-    .space{
-      margin-left: 130px;
-    }
-    .space1{
-      margin-left:10px;
-    }
+  
     .editar{
+      margin-left: 170px;
+      -webkit-transition-duration: 0.4s; 
+      transition-duration: 0.4s;
+      border: 3px solid #555555;
+      background-color: white;
+      padding-right: 15px;
+      padding-left: 15px;
+      height:25px;
+    }
+     .editar:hover {
+      background-color: #555555; 
+      color: white;
+    }
+    .salvar{
+      margin-left: 170px;
       -webkit-transition-duration: 0.4s; 
       transition-duration: 0.4s;
       border: 2px solid #555555;
@@ -92,7 +109,7 @@
       padding-right: 15px;
       padding-left: 15px;
     }
-     .editar:hover {
+     .salvar:hover {
       background-color: #555555; 
       color: white;
     }
@@ -114,8 +131,10 @@
    .tasks{
       background:	#d8d8d8;
       float: left;
-      width: 49%;
-      height: 300px;
+      margin-left: -15%;  
+      width: 60%;
+      height: 600px;
+      
    }
    .task-title{
      background: grey;
@@ -128,10 +147,11 @@
 
    .actions{
     background:#d8d8d8;
-    float: left;
-    margin-left: 2%;  
-    width: 49%;
-    height: 300px;
+    float: right;
+    margin-right: -15%;  
+    width: 60%;
+    height: 600px;
+    
     margin-bottom: 4px;
 
    }
@@ -143,4 +163,15 @@
    .action-content{
      
     
+   }
+   input[type=text] {
+    margin-top: 15px;
+    height:25px;
+    width: 250px;
+    border: 5px solid #555555;
+    border-radius: 4px;
+   }
+   .nInput{
+    border: 3px solid #555555;
+    border-radius: 4px;
    }
